@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"212c5bb74a50b1a9","type":"file","file":"7 - Files/Pasted image 20231123171616.png","x":-784,"y":-1240,"width":1329,"height":355,"color":"1"},
+		{"id":"42c1f247472f7179","type":"text","text":"**POPULATION** = a group of units or individuals.\n(*example: in a survery, all possible participants*)","x":-784,"y":-845,"width":360,"height":71,"color":"1"},
+		{"id":"bae051ba8eecf74c","type":"text","text":"**DISCRETE VARIABLE** = values are (usually) integer numbers.","x":-799,"y":-477,"width":369,"height":104,"color":"1"},
+		{"id":"b9bdc9fc2fc6fb3e","type":"file","file":"NEEDS RESTRUCTURE - THE MATH COMPENDIUM/Discrete Random Variables.md","x":-799,"y":-237,"width":369,"height":400,"color":"4"},
+		{"id":"cd4ac249036e5442","type":"file","file":"NEEDS RESTRUCTURE - THE MATH COMPENDIUM/random variable.md","x":-519,"y":283,"width":400,"height":400,"color":"4"},
+		{"id":"0121d17e8284f882","type":"text","text":"**VARIABLE** = property of a unit/individual.\n(*example: in a survery, answer to a question*)","x":-519,"y":-697,"width":360,"height":71,"color":"1"},
+		{"id":"5607be2a69a9c85e","type":"text","text":"**CONTINUOUS VARIABLE** = values are real numbers in an interval (interval variables).","x":-200,"y":-477,"width":369,"height":104,"color":"1"},
+		{"id":"2f555f3cd99e70d5","type":"file","file":"NEEDS RESTRUCTURE - THE MATH COMPENDIUM/Continuous Random Variables.md","x":-200,"y":-237,"width":369,"height":400,"color":"4"},
+		{"id":"04fd3c3140f6ba45","type":"text","text":"**QUALITATIVE VARIABLE** = Its possible values are categories or levels (nominal and  \nordinal, resp.).","x":176,"y":-848,"width":369,"height":148,"color":"1"},
+		{"id":"36ae2993d059c56a","type":"text","text":"**QUANTITATIVE VARIABLE** = values are numerical (real numbers).","x":176,"y":-665,"width":369,"height":129,"color":"1"},
+		{"id":"690afc6a849f260f","type":"file","file":"7 - Files/Pasted image 20231123172356.png","x":-750,"y":800,"width":918,"height":516,"color":"6"},
+		{"id":"3adb27d083d8f600","type":"file","file":"7 - Files/Pasted image 20231123172723.png","x":-800,"y":1520,"width":1344,"height":359,"color":"2"}
+	],
+	"edges":[
+		{"id":"ea90efbbbaf1d023","fromNode":"0121d17e8284f882","fromSide":"right","toNode":"04fd3c3140f6ba45","toSide":"left"},
+		{"id":"85c9f569a9feb979","fromNode":"0121d17e8284f882","fromSide":"right","toNode":"36ae2993d059c56a","toSide":"left"},
+		{"id":"a05164b38e4756c8","fromNode":"bae051ba8eecf74c","fromSide":"bottom","toNode":"b9bdc9fc2fc6fb3e","toSide":"top"},
+		{"id":"649ceeaf4667aead","fromNode":"0121d17e8284f882","fromSide":"bottom","toNode":"bae051ba8eecf74c","toSide":"top"},
+		{"id":"7d0322ca574cd429","fromNode":"0121d17e8284f882","fromSide":"bottom","toNode":"5607be2a69a9c85e","toSide":"top"},
+		{"id":"d759e8941253f220","fromNode":"5607be2a69a9c85e","fromSide":"bottom","toNode":"2f555f3cd99e70d5","toSide":"top"},
+		{"id":"96b76fa569d62cc4","fromNode":"cd4ac249036e5442","fromSide":"top","toNode":"b9bdc9fc2fc6fb3e","toSide":"bottom"},
+		{"id":"6f4e996ecbad8bfb","fromNode":"cd4ac249036e5442","fromSide":"top","toNode":"2f555f3cd99e70d5","toSide":"bottom"}
+	]
+}
